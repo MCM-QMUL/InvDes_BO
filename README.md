@@ -102,4 +102,4 @@ If using this code for research or industrial purposes, please cite:
 [1] Kansara, H., Guo, L. and Tan*, W., 2026. Inverse design of cellular composites for targeted nonlinear mechanical response via multi-fidelity Bayesian optimisation. Composites Part B: Engineering, p.113740.
 
 ## License
-MIT
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
