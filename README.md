@@ -1,5 +1,6 @@
 # InvDes_BO
 **Open-source Code for Multi-fidelity Bayesian Inverse Design of Spinodoid Cellular Materials**
+First author: **Hirak Kansara**, contribution author: Leo Guo, Corresponding author: **Dr Wei Tan (wei.tan@qmul.ac.uk)**
 
 This repository introduces a multi-fidelity Bayesian optimisation (InvDes) framework for inverse design of spinodoid structures—scalable, non-periodic topologies with efficient stress distribution—to enhance crush energy absorption under impact. The framework addresses the challenge of balancing conflicting objectives: maximising energy absorption while minimising peak forces, accounting for non-linear material behavior and plastic deformation. By integrating finite element analysis (FEA) with Bayesian optimisation, it efficiently navigates the design space, reducing computational costs compared to conventional methods (e.g., NSGA-II). Key features include:
 
@@ -14,8 +15,6 @@ Figure 1: Workflow for inverse design using multi-fidelity Bayesian optimisation
 <img width="2744" height="3448" alt="1-s2 0-S1359836826003616-gr7_lrg" src="https://github.com/user-attachments/assets/59b28ddf-0351-4801-9f4c-4108da590ce3" />
 
 Figure 2: Summary of inverse design results illustrating the response obtained from four methods across four distinct targets: (a) Target 1, (b) Target 2, (c) Target 3, and (d) Target 4. 
-
-First author: **Hirak Kansara**, contribution author: Leo Guo, Corresponding author: **Dr Wei Tan (wei.tan@qmul.ac.uk)**
 
 
 ## 🛠 Installation
