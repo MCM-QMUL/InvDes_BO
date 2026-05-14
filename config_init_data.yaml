@@ -1,0 +1,25 @@
+defaults:
+  - override hydra/job_logging: custom
+
+path_to_spinodal_resources: 'C:\Temp\InvDes_GAN\spinodal_resources'
+path_to_MOO_folder: 'C:\Temp\InvDes_GAN'
+path_to_GIBBON: 'C:\Users\hirak\Desktop\Gibbon'
+# initial_data_filename: 'selected_data_combined' # doesn't need .csv extension
+apply_transform: False
+apply_densification_filter: False
+input_columns:
+  - 'Ro'
+  - 'Theta_1'
+  - 'Theta_2'
+  - 'Theta_3'
+output_columns:
+  - 'Stress'
+
+batch_size: 1
+num_samples: 1
+seed: 123
+
+hpc:
+  taskid: 1
+
+sge_jobid: '1'
