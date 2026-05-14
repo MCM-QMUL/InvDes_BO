@@ -72,9 +72,13 @@ python main.py
 ### **Example Workflow**  
 1. Define objectives in `config.yaml`:  
    ```yaml  
-   objectives:  
-     EA 
-     Peak_Force
+   input_columns:
+     - 'Ro'
+     - 'Theta_1'
+     - 'Theta_2'
+     - 'Theta_3'
+   output_columns:
+     - 'Stress'
    ```  
 
 2. Start optimisation:  # change mode in main.py if running framework either locally or on cluster
@@ -83,7 +87,7 @@ python main.py
    ```  
 
 3. Analyse results:  
-   - View Pareto front: `hydra_output_dir/pareto_front.csv`.  
+   - Check the similiariy score 
 ---
 
 ## 💡 Notes  
